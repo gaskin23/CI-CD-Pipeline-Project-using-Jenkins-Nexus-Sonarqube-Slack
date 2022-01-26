@@ -81,12 +81,17 @@ GOALS
 
 You'll have a very clear understanding what we are trying to achieve. Let's see the workflow:
 
-    - First, developer makes a code change, commit to one control system or source code manager and automation tool will automatically fetch that code, build it, run a unit test and return the outcome on slack channel. And so we'll be using slack anyways.
-    - The next, Phase will be it will codeanalysis and analysis, there will be  quality gates if the threshold if it is not passing the threshold gap, then it's good.
-    - If it's passing the threshold, then a notification will be sent on like channel.Then the software will be built, it will be packaged and the artifact will be uploaded and its outcome notification will be also sent.
-    - The artifact or the software will be stored in the artifact repository, if all these stages are successful, then the software can be promoted to the next level. If there is any failure, the notification will be any anyways sent.
-    - Once the notification is received by the developer for any failure they will make, the code will make the fix and the process repeats again.
-    - There will be regular code commits, continuous code commits, and this process will run continuously. that's why the need continuous continuous integration. This process will be automated, so this can be done multiple times in a day if you want.
+- First, developer makes a code change, commit to one control system or source code manager and automation tool will automatically fetch that code, build it, run a unit test and return the outcome on slack channel. And so we'll be using slack anyways.
+
+- The next, Phase will be it will codeanalysis and analysis, there will be  quality gates if the threshold if it is not passing the threshold gap, then it's good.
+
+- If it's passing the threshold, then a notification will be sent on like channel.Then the software will be built, it will be packaged and the artifact will be uploaded and its outcome notification will be also sent.
+
+- The artifact or the software will be stored in the artifact repository, if all these stages are successful, then the software can be promoted to the next level. If there is any failure, the notification will be any anyways sent.
+
+- Once the notification is received by the developer for any failure they will make, the code will make the fix and the process repeats again.
+
+- There will be regular code commits, continuous code commits, and this process will run continuously. that's why the need continuous continuous integration. This process will be automated, so this can be done multiple times in a day if you want.
 
 ## Flow of Execution 
 
