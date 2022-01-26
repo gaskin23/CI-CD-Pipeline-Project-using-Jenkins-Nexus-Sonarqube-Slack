@@ -10,9 +10,11 @@ The aim of this project is to automate the manually progressing project developm
 
 ![Project_Tools_2](./Project-Tools-2.png)
 
-## Scenario
+## Project Architecture
 
 ![Scenario](./Scenario.png)
+
+## Scenario
 
 You have a product development and agile SDLC is in motion, so a bunch of smart developers in an agile team will regularly make changes. So there'll be multiple code changes every day. And all this code needs to be tested because this is what actually is building your product. 
 
