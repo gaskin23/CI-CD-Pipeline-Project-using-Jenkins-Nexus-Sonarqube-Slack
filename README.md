@@ -2,7 +2,7 @@
 
 ## Description
 
-This project aims to deploy Visual Profile Maven Project to Nexus repository with CI/CD Jenkins, Sonarqube, Nexus,GİT/Github,Slack and AWS EC2 instance.
+The aim of this project is to automate the manually progressing project development processes and to provide continuous integration and delivery by reducing the errors that may occur with less human intervention. This project aims to deploy Visual Profile Maven Project to Nexus repository with CI/CD Jenkins using  Sonarqube, Nexus,GİT/Github,Slack and AWS EC2 instance. 
 
 ## Tools is Used For This Project
 
