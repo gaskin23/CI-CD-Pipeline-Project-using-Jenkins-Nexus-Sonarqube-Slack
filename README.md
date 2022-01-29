@@ -123,7 +123,11 @@ You'll have a very clear understanding what we are trying to achieve. Let's see 
 11. Test with intellij, VScode etc.
 12. Cleanup resources.
 
-## Project Steps
+## Steps for Build Pipeline Project Create
+
+## Outuput of Build Pipeline
+
+![build_pipeline](./Build-pipeline-image.png)
 
 1. Login to AWS console
 2. Create keypair and security groups for server
@@ -160,8 +164,7 @@ b. select maven2(proxy) [Dependencies, downloand this repository]
     - Remote storage enter URL  https://repo1.maven.org/maven2/
     - click create repository
 c. select maven2(hosted)
-    - select "snapshot" version policy
-    - 
+    - select "snapshot" version policy 
 d. select maven2(group)
     - vpro-maven-group
     - Member repositories add "vprofile-release, vpro-maven-central,vprofile-snapshot"
@@ -185,7 +188,8 @@ d. select maven2(group)
         - Settings file: Settingsfile in filesystem
         - file path: settings.xml
     - Then save job and click build now
-9. Go to Nexus repository and select Browse and you will see dependencies download maven-central and maven-group.
+    - Go to Nexus repository and select Browse and you will see dependencies download maven-central and maven-group.
+
 10. Slack Integratıon:
     - Go to www.slack.com and If you don't have a slack account, first of all you must create an account from this website. 
     - After you login to account, you should create workspace named for example "visualpath" for ıntegratıon. 
