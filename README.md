@@ -309,12 +309,12 @@ on sonarqube dashboard
         - Upstream/downstream config: Select Build job for initial integration
         - Display options No of Displayed Builds: 5 and save 
 17. Time to test this pipeline now.
-        - Click run and you can see success jobs and slack notifications from your channel
-        - After build pipeline finish with success you should see new artifact version on your nexus repo vprofile-release
-        - go to first job Build configure then add build trigger Poll SCM Shcedule: * * * * * [this means every minute] and save it 
-        - For test trigger, you can change jenkins-setup.sh under userdata directory then git push githu repo
-        - İn a minute, you can see change codes git polling logs on jenkins server 
-        - Look start pipeline from your build pipeline  view and slack notification because of trigger
+    - Click run and you can see success jobs and slack notifications from your channel
+    - After build pipeline finish with success you should see new artifact version on your nexus repo vprofile-release
+    - go to first job Build configure then add build trigger Poll SCM Shcedule: * * * * * [this means every minute] and save it 
+    - For test trigger, you can change jenkins-setup.sh under userdata directory then git push githu repo
+    - İn a minute, you can see change codes git polling logs on jenkins server 
+    - Look start pipeline from your build pipeline  view and slack notification because of trigger
 
 ## /////////////////// FİNAL OF PROJECT //////////////////////////// ##
         
